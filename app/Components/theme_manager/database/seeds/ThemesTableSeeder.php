@@ -49,6 +49,16 @@ class ThemesTableSeeder extends Seeder {
                     'target'      => 'public',
                     'created_by'  => 1
                 ),
+                array(
+                    'name'        => 'Elos Theme',
+                    'version'     => '1.0',
+                    'author'      => '',
+                    'description' => 'Elos Theme',
+                    'screenshot'  => 'assets/public/elos/images/elos_screenshot.png',
+                    'directory'   => 'elos',
+                    'target'      => 'public',
+                    'created_by'  => 1
+                ),
             );
 
         DB::table('themes')->insert($themes);
